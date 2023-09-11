@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.column{
+display:grid;
+grid-template-areas: "primary secondary";
+width: 1000px;
+margin: 0 auto;
+
+}
+
+.primary{
+  width:700px;
+  background-color: #eee;
+}
+
+.secondary{
+  width:300px;
+  background-color: #999;
+}
+
